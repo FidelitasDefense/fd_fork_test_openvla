@@ -22,8 +22,8 @@ jobs:
           fetch-depth: 0
 
         #Suggested fix
-      - name: Authenticate Docker
-        run: aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws
+      #- name: Authenticate Docker
+        #run: aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws
       
       
       - name: Configure aws credentials
